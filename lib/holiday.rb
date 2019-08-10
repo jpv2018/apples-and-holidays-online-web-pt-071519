@@ -62,7 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
       puts "  #{holiday.to_s.capitalize}: #{supplies.join(", ")}"
     end
   end
-      
+      #{holiday.to_s.split("_").map(&:capitalize).join(" ") "New_years"
     
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
