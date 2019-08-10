@@ -57,9 +57,9 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
   supply_list = []
-  holiday_hash.each do |season, holiday|
-    supply_list << "#{season.to_s.capitalize!}:\r\n #{holiday.to_s.capitalize!}"
-  print supply_list.flatten.uniq
+  holiday_hash.each do |season, holidays|
+    supply_list << "#{season.to_s.capitalize!}:\r\n #{holidays.to_s.capitalize!}"
+  puts supply_list.flatten.uniq
 end
       
     
